@@ -1,0 +1,493 @@
+
+/*=====================================
+ PAGE-21 PAGE'S CSS START HERE
+=======================================*/
+
+/*==================
+  Banner Section
+====================*/
+.paris-hotel-banner{
+   /* background: url(../images/paris-banner.png) no-repeat center; */
+   background-size: cover;
+   padding: 270px 0;
+   height: 100vh
+}
+.paris-hotel-banner h1{
+   color: #FFF
+}
+.paris-hotel-banner p{
+   font-size: 20px;
+   line-height: 32px;
+   font-weight: 300;
+   color: #fff;
+   padding: 20px 0 0;
+}
+/*==================
+  Room Info Section
+====================*/
+.hotel-room-section{
+   padding: 50px 0;
+}
+.hotel-room-section .hotel-room-info-box{
+   border: 1px solid #f7f7f7;
+   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+   margin-bottom: 30px
+}
+.hotel-room-section .hotel-room-info-box .last-img{
+   position:  relative;
+}
+.hotel-room-section .hotel-room-info-box .overflow{
+   background:  #00000070;
+   position:  absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   text-align: center;
+    padding-top: 24px;
+}
+
+.paris-header{
+   text-align: center;
+   padding: 30px 0 50px 0;
+}
+.paris-header h2{
+   color: #232323;
+   font-size: 40px;
+   padding-bottom: 20px;
+}
+.paris-header p{
+   color: #707070;
+   width: 40%;
+   margin: auto;
+}
+.hotel-room-section .hotel-room-info{
+   padding: 20px 120px 20px 20px;
+}
+.hotel-room-section .hotel-room-info h1{
+   color: #881ae7;
+   /* font-size: 30px; */
+   font-size: 25px;
+}
+.hotel-room-section .hotel-room-info p{
+   font-size: 14px;
+   color: #878787;
+   margin-bottom: 8px;
+   line-height: 18px;
+   padding: 6px 0
+}
+
+.hotel-room-section ul{
+   padding-left: 0rem;
+   margin-top: 25px;
+   margin-bottom: 5px;
+}
+
+.hotel-room-section ul li{
+   display: inline-block;
+   font-size: 13px;
+   padding-right: 15px;
+   color: #878787;
+}
+.hotel-room-section ul li img{
+   width: 15px;
+   margin-right: 6px;
+}
+
+.hotel-room-select{
+   padding-top: 35px;
+   padding-right: 30px;
+   padding-left:3px;
+   text-align: right;
+}
+.hotel-room-section .hotel-room-select h2{
+   font-size: 32px;
+   letter-spacing: 2px;
+   line-height: 22px;
+}
+
+.hotel-room-section .hotel-room-select h2 span{
+   font-size: 14px;
+   letter-spacing: 1px;
+   font-weight: 500;
+}
+.hotel-room-section .hotel-room-select button{
+   float: right;
+   background: #000;
+   color: #fff;
+   width: 100%;
+   border-radius: 0;
+   padding: 10px 25px;
+}
+.hotel-room-section .hotel-room-select button:hover{
+   background: #a9a9a9;
+   color: #fff;
+}
+
+/*========================
+   Pagination Section
+=======================*/
+
+.pagination-section .pagination li i{
+   font-size: 14px;
+   background: #FFC600;
+   color:  #000;
+   padding: 10px;
+   border-radius: 50%;
+   margin-right: 25px;
+}
+.pagination-section .btn-default {
+   display: block;
+   float: right;
+   background: #A9A9A9;
+   font-size: 18px;
+   padding: 10px 40px;
+   border-radius: 0;
+   color: #fff;
+}
+.pagination-section .btn:hover{
+   background: #FFC600;
+   color: #000;
+}
+
+/*========================
+   About Section
+=======================*/
+.about-section{
+   padding:  120px 0;
+}
+.about-section h1 {
+   color: #232323;
+   font-size: 40px;
+   padding-bottom: 20px;
+}
+.about-section img{
+   text-align: center;
+   width: 66%;
+   margin: auto;
+   display: block;
+}
+.about-section .btn{
+   border: 2px solid #000;
+   color: #000;
+   padding: 8px 20px;
+   border-radius: 0;
+   font-size: 14px;
+   margin-top: 28px;
+}
+.about-section .btn:hover{
+   border:  2px solid #FFC600;
+   background:  #FFC600;
+   padding:  8px 20px;
+}
+.about-section .btn:focus{
+   box-shadow: 0 0 0 0 rgb(13 110 253 / 0%);
+}
+
+/*==========================
+   Hotel Amenities Section
+===========================*/
+.hotel-amenities-section{
+   padding: 50px 0;
+}
+.hotel-amenities-section h1{
+   font-size: 22px;
+}
+.hotel-amenities-section .inner-box .col-lg-3{
+   padding: 20px;
+}
+.hotel-amenities-section .inner-box{
+   padding: 20px 10px;
+   box-shadow: 0px 3px 20px #0000000D;
+   text-align:  center;
+   margin-top:  20px;
+}
+.hotel-amenities-section .inner-box img{
+       width: 48px;
+    height: 48px;
+}
+.hotel-amenities-section .inner-box p{
+   font-size: 14px;
+   text-transform: uppercase;
+   margin-top: 14px;
+   font-weight: 600;
+}
+
+/*==========================
+   Map Amenities Section
+===========================*/
+.map-section{
+   padding:  50px 0;
+}
+.map-section .gmap img{
+   width: 100%;
+}
+.map-section .left-inner-content{
+   position: relative;
+   padding-left:  0;
+}
+.map-section .left-inner-header{
+   padding: 100px 65px;
+}
+.map-section .left-inner-header h1{
+   font-size:  22px;
+}
+.map-section .left-inner-content .city-img{
+   position: absolute;
+   width: 50%;
+   bottom: 6px;
+   left: 0;
+}
+.map-section .left-inner-content ul li{
+   display: inline-block;
+   font-size: 13px;
+   padding-right: 15px;
+   color: #2C4458;
+   font-weight: 600;
+}
+.map-section .left-inner-content .map-right-para{
+   padding-right: 100px;
+}
+.map-section .left-inner-content .col-lg-5{
+   align-items: center;
+   justify-content: center;
+   vertical-align: middle;
+   padding: 50px 0;
+}
+.map-section .left-inner-content ul{
+   padding: 0px;
+}
+.map-section .left-inner-content .btn-default{
+   background: #FFC600;
+   font-size: 12px;
+   padding: 12px 30px;
+   margin-top: 20px;
+}
+.map-section .left-inner-content .btn-default img{
+   width: 16px;
+   margin-right: 8px;
+   margin-top: -3px;
+}
+
+
+/*==========================
+  Review Section
+===========================*/
+.review-section{
+   padding:  50px 15px;
+}
+ .review-section h1{
+   font-size: 34px;
+}
+.review-section .see-all{
+   text-align: right;
+   margin-bottom: 0;
+   padding-bottom: 0;
+   font-weight:  600;
+ }
+.review-section .see-all a{
+   font-size: 16px;
+   color:  #000;
+   text-decoration: none;
+}
+
+.comment-box {
+   margin-top: 30px !important;
+}
+
+.media-box{
+   margin-bottom: 20px;
+}
+.comment-box img {
+   width: 50px;
+   height: 50px;
+}
+.comment-box .media-left {
+   padding-right: 10px;
+   width: 8%;
+   float: left;
+}
+.comment-box .media-body{
+   width: 92%;
+   float: left;
+   padding: 18px 20px 0 20px;
+   background: #F6F6F6;
+   position: relative;
+}
+
+
+.comment-box .media-body span{
+   color: #999999;
+}
+.comment-box .media-body a{
+   color: #669900;
+}
+.comment-box .media-body ul {
+   padding-left: 0;
+}
+.comment-box .media-body ul li{
+   display: inline-block;
+   font-size: 13px;
+   padding-right: 5px;
+   color: #FDCB39;
+}
+.comment-box .media-body p {
+   margin-bottom: 0;
+   padding-bottom:  0;
+}
+
+.comment-box .media-body:after {
+   content: "";
+   width: 24px;
+   height: 24px;
+   background-color: #F6F6F6;
+   border: 1px solid #F6F6F6;
+   border-width: 1px 0 0 1px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   position: absolute;
+   top: 10px;
+   left: -6px;
+}
+
+
+
+.price-hotel{
+   float: right;
+   font-size: 22px;
+   letter-spacing: 2px;
+   margin-top: -32px;
+   position: absolute;
+   right: 8px;
+   line-height: 18px;
+}
+
+/*==========================
+  Gallery Section
+===========================*/
+
+
+
+
+
+@media (max-width: 992px){
+   .hotel-90-h2{
+      display: none;
+   }
+   .price-hotel {
+      float: right;
+      font-size: 14px;
+      letter-spacing: 0px;
+      margin-top: -34px;
+      position: absolute;
+      right: 24px;
+      line-height: 13px;
+   }
+   .price-hotel span{
+      font-size: 12px;
+   }
+   .hotel-room-section .hotel-room-select button{
+      margin-left: 10px;
+      float: none;
+   }
+      .hotel-room-select{
+      padding-top: 0px;
+   }
+      .desktop-part{
+      display: none;
+   }
+}
+@media (min-width: 992px){
+   .price-hotel{
+      display:  none;
+   }
+   .mobile-part{
+      display: none;
+   }
+}
+
+
+@media (min-width:320px) and (max-width: 768px){
+   .paris-hotel-banner {
+      background: url(../images/paris-banner.png) no-repeat center;
+      background-size: cover;
+      padding: 200px 0;
+      height: 80vh;
+   }
+   .paris-hotel-banner h1{
+      font-size:  30px;
+   }
+   .hotel-room-section .hotel-room-info h1{
+      font-size: 22px;
+   }
+   .paris-hotel-banner p{
+      font-size: 17px;
+      line-height: 22px;
+   }
+   .hotel-room-section .hotel-room-info-box .overflow{
+      padding-top: 38px;
+   }
+   .hotel-room-section .hotel-room-info{
+      padding: 15px;
+   }
+   .paris-header h2 {
+      font-size: 26px;
+      padding-bottom: 8px;
+   }
+   .paris-header p{
+      width:100%;
+      width: 100%;
+      font-size: 15px;
+      padding: 0 20px;
+   }
+   .about-section{
+      padding:  40px 0;
+   }
+   .hotel-room-section, .hotel-room-media img{
+      margin: auto;
+      display: block;
+   }
+   .featured-hotel-container {
+     width: 100%;
+   }
+   .about-section h1{
+     font-size: 35px;
+     padding-bottom: 0px;
+     text-align: center;
+   }
+   .about-section p{
+      text-align: center;
+   }
+   .about-section .btn{
+      display: block;
+      margin: auto;
+   }
+   .hotel-amenities-section h1{
+      text-align:  center;
+   }
+   .map-section .left-inner-content .city-img {
+        position: relative;
+    }
+   .map-section .left-inner-content .col-lg-5{
+      padding: 15px 20px;
+   }
+   .map-section{
+      padding: 0 15px;
+   }
+   .map-section .left-inner-header {
+      padding: 20px 15px;
+   }
+
+   .comment-box .media-left{
+     /* padding-right: 10px; */
+     padding-bottom: 20px;
+     width: 14%;
+     float: none;
+    display: block;
+    margin: auto;
+   }
+   .comment-box .media-body:after{
+      top: -8px;
+     left: 50%;
+   }
+}

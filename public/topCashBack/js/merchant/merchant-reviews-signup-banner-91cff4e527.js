@@ -1,0 +1,1 @@
+$(document).ready(function(){var n=$(".sticky-banner-offset").offset().top;$("body").scroll(function(e){$("body").scrollTop()>n?($(".sticky-container").fadeIn(),$(".fixedSignupBanner").slideDown()):($(".fixedSignupBanner").slideUp(),$(".sticky-container").fadeOut())})});

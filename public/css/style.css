@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'futura';
+  src: url(assets/fonts/futura/FuturaLightfont.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url(assets/fonts/futura/futur.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url(assets/fonts/futura/FuturaHeavyfont.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'futura-bold';
+  src: url(assets/fonts/futura/FuturaHeavyfont.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'futura-bolder';
+  src: url(assets/fonts/futura/FuturaExtraBlackfont.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'futura-light';
+  src: url(assets/fonts/futura/futuralightbt.ttf);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'futura-book';
+  src: url(assets/fonts/futura/FuturaBookfont.ttf);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+:root {
+  --light-blue: #CDE2F5;
+  --base-green: #018849;
+  --gray: #EEEEEE;
+  --light-gray: #fafafa;
+  --dark-gray: #c7c7c7;
+  --extra-dark: #242424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'futura-book';
+  font-weight: lighter;
+}
+
+b {
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
